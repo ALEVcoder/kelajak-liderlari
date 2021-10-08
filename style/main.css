@@ -1,0 +1,624 @@
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+:root {
+    --kok: #1499e0;
+    --oq: white;
+    --yashil: #1c5573;
+    --toq_kok: rgb(0, 0, 109);
+    --bac_kok: linear-gradient(to left, blue, blue, rgb(66, 66, 223));
+    --op_05: 0.05;
+}
+
+.bgimage {
+    position: relative;
+    height: 50rem;
+}
+
+.bgimage:before {
+    z-index: 777;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.video-slide {
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    z-index: 99999;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social ul {
+    z-index: 99999999;
+    position: relative;
+    top: -5rem;
+    left: -38rem;
+    transform: rotate(-90deg);
+}
+
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 1.5rem;
+}
+
+.social ul li a {
+    z-index: 999999999;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--oq);
+}
+
+.navbar-brand {
+    color: var(--oq) !important;
+}
+
+.nav img {
+    margin-left: -15rem;
+}
+
+.h-info {
+    z-index: 9999;
+    position: relative;
+    top: 1.3rem;
+}
+
+.h-info p {
+    position: relative;
+    top: 7rem;
+    left: -20rem;
+    color: var(--oq);
+}
+
+.h-info h2 {
+    font-size: 10rem;
+    position: relative;
+    top: 8rem;
+    left: 16rem;
+    letter-spacing: 0px;
+    color: #2C99E4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.h-info h3 {
+    font-size: 10rem;
+    position: relative;
+    top: 7rem;
+    left: 1rem;
+    letter-spacing: 5px;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: #fff;
+    margin: -8% 27%;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.maqsadp1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #777;
+}
+
+.bgtext {
+    position: absolute;
+    font-size: 18rem;
+    text-align: center;
+    opacity: 0.1;
+    font-weight: 600;
+    margin-top: -14rem;
+    padding: 0 13rem;
+}
+
+.maqsad h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.maqsadp2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.maqsadp3 {
+    font-weight: 500;
+}
+
+.bosqichh31 {
+    margin-top: 10rem;
+    font-weight: 600;
+    color: #777;
+}
+
+.bosqichh11 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.bgtext2 {
+    position: absolute;
+    font-size: 18rem;
+    text-align: center;
+    opacity: 0.1;
+    font-weight: 600;
+    margin-top: -6rem;
+    padding: 0 13rem;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.bosqich_body {
+    position: relative;
+    top: 3rem;
+}
+
+.bosqich_body .col img {
+    width: 7rem;
+    margin-left: 2rem;
+}
+
+.bosqich_body span {
+    padding: 1.7rem 2rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--oq);
+    font-weight: 600;
+    background-color: var(--kok);
+}
+
+.bosqich_body .col div {
+    width: 5rem;
+    height: 5rem;
+    /* background-color: rgba(119, 238, 212, 0.486); */
+    margin-top: -2.5rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+}
+
+.bosqich_body p {
+    font-size: 1.6rem;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    margin-left: 1.2rem;
+}
+
+.bosqich_body .col {
+    text-align: center;
+}
+
+.hududh31 {
+    margin-top: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(8, 43, 160);
+    position: relative;
+}
+
+path:hover,
+circle:hover {
+    stroke: #000000 !important;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    fill: #001269 !important;
+    cursor: pointer;
+}
+
+.st0 {
+    fill: #78d8f2;
+    stroke: #000000;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.st2 {
+    opacity: 0.5;
+    fill: none;
+    stroke: #6BB5B8;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    enable-background: new;
+}
+
+.imkonh11 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.bg-dark {
+    background-image: url(../img/bg1.JPG);
+    background-size: cover;
+    height: 53rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: auto;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.one {
+    background-color: white;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .2);
+    transition: 0.3s;
+    padding: 50px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.one:hover {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);
+}
+
+.one h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: transparent;
+    font-size: 60px;
+}
+
+.one .w-title,
+p,
+a {
+    text-align: center;
+}
+
+.w-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.w-titlee {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tugma {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    background-color: #3D95EB;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.tugma:hover {
+    background-color: white;
+    border: none;
+}
+
+.yangilik {
+    margin-top: 2rem;
+}
+
+.a_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.a_title h1 {
+    color: #1C2053;
+}
+
+.a_title a {
+    text-decoration: none;
+    color: #3D95EB;
+}
+
+.news {
+    margin-top: 2rem;
+}
+
+.news .col-md-4 {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.news .col-md-4 img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 10px 10px 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.news .col-md-4 .data2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .col-md-4 .data2 p {
+    color: gray;
+}
+
+.news .col-md-4a {
+    text-decoration: none;
+    color: rgb(0, 0, 109);
+    text-transform: capitalize;
+}
+
+.news .col-md-4 a:hover {
+    text-decoration: underline;
+}
+
+.hududbg {
+    background-color: #001269;
+    margin-left: 3rem;
+}
+
+.hududbg .col img {
+    width: 5rem;
+    margin-top: 0.7rem;
+    border-radius: 10%;
+}
+
+.hududbg .col h6 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: var(--oq);
+}
+
+.hududbg .col span {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: var(--oq);
+    width: 5rem;
+    margin-top: -10rem;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+.hududbg .col p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: var(--oq);
+    width: 5rem;
+}
+
+
+/* Yangiliklar Style Start */
+
+#yangilik {
+    background-color: rgba(153, 153, 153, 0.082);
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+#yangilik .container {
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
+#yangilik .container .row .col .box {
+    border-radius: 6px;
+}
+
+#yangilik .container .row .col .box a {
+    text-align: center;
+}
+
+#yangilik .container .row .col .box img {
+    width: 10rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#yangilik .container .row .col .box .d_flex {
+    width: 100%;
+}
+
+#yangilik .container .row .col .box .d_flex p {
+    font-size: 15px;
+}
+
+#yangilik .container .row .col .box .d_flex div {
+    float: right;
+    display: flex;
+    padding-left: 210px;
+    width: 10%;
+}
+
+#yangilik .container .row .col .box .d_flex div p {
+    margin-left: 3px;
+}
+
+#yangilik .container .row .col .box .d_flex div i {
+    color: #9999;
+    margin-top: 1px;
+}
+
+#yangilik .container .row .col .box h6 {
+    color: #001269;
+    font-weight: 600;
+}
+
+.bosh_joy {
+    width: 100%;
+    height: 15px;
+    background-color: var(--oq);
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+#yangilik .container .row .col .box_1 {
+    position: relative;
+    background-color: var(--oq);
+    padding: 60px 20px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 30px rgba(153, 153, 153, 0.178);
+    border-radius: 6px;
+}
+
+#yangilik .container .row .col .box_1 img {
+    width: 100px !important;
+    position: absolute;
+    left: 80px;
+    top: -50px;
+    border-radius: 50%;
+}
+
+#yangilik .container .row .col .box_1 {
+    text-align: center;
+}
+
+#yangilik .container .row .col .box_1 a {
+    text-decoration: none;
+}
+
+#yangilik .container .row .col .box_1 p {
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+#footer {
+    /* background:radial-gradient(blue, #2fa4e2); */
+    background: linear-gradient(to right, rgb(9, 2, 107), #2fa4e2);
+    padding: 30px 0 30px;
+}
+
+#footer .container .row .col-md-6 .row .col-md-7 .d_flex {
+    align-items: center;
+    display: flex;
+}
+
+#footer .container .row .col-md-6 .row .col-md-7 .d_flex img {
+    width: 150px;
+}
+
+#footer .container .row .col-md-6 .row .col-md-7 .d_flex h6 {
+    margin-left: 5px;
+    color: var(--oq);
+    font-weight: 600;
+}
+
+#footer .container .row .col-md-6 .row .col-md-7 p {
+    color: var(--oq);
+    font-weight: 600;
+    padding: 10px 0 0 10px;
+    font-size: 15px;
+}
+
+#footer .container .row .col-md-6 .row .col-md-5 {
+    padding: 20px 0;
+    color: var(--oq);
+}
+
+#footer .container .row .col-md-6 .row .col-md-5 h5 {
+    color: var(--oq);
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+#footer .container .row .col-md-6 .row .col-md-5 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+#footer .container .row .col-md-6 .row .col-md-5 ul li a {
+    color: var(--oq);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+#footer .container .row .col-md-6 .row .col-md-5 ul li a:hover {
+    color: rgba(255, 255, 255, 0.459);
+    transition: 0.5s;
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-7 {
+    padding: 20px 0;
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+    color: var(--oq);
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-7 ul li {
+    list-style: none;
+    margin-left: -40px;
+    margin-bottom: -2px;
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-7 ul li p {
+    padding: 5px 0 0 10px;
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-5 {
+    padding: 20px;
+}
+
+#footer .container .row .col-md-6:nth-child(2) .row .col-md-5 p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* <!-- --------------------- KELAJAK LIDERLRI KLUBI ------------------- -->*/
+
+
+/* <!-- --------------------- BY ALEVCODER ------------------- -->*/

@@ -1,0 +1,550 @@
+@media (max-width: 1200px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .h-info p {
+        position: relative;
+        top: 0rem;
+        left: -13rem;
+        color: var(--oq);
+    }
+    .h-info h2 {
+        font-size: 11rem;
+        position: relative;
+        top: -3rem;
+        left: 12rem;
+    }
+    .h-info h3 {
+        font-size: 9rem;
+        position: relative;
+        top: -5rem;
+        left: 0rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 60rem;
+    }
+    .hududbg {
+        width: 57rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .d-f {
+        display: flex;
+        flex-direction: column;
+    }
+    .w-f {
+        width: 58rem;
+    }
+    .news .w-f img {
+        width: 100%;
+        height: 40rem;
+    }
+    .one {
+        width: 58rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 4rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .h-info p {
+        position: relative;
+        top: 0rem;
+        left: -13rem;
+        color: var(--oq);
+    }
+    .h-info h2 {
+        font-size: 7rem;
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+    .h-info h3 {
+        font-size: 6rem;
+        position: relative;
+        top: 0rem;
+        left: -2rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 40rem;
+    }
+    .hududbg {
+        width: 42rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .d-f {
+        display: flex;
+        flex-direction: column;
+    }
+    .w-f {
+        width: 44rem;
+    }
+    .one {
+        width: 43rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 4rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .h-info p {
+        display: none;
+    }
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .h-info p {
+        position: relative;
+        top: 0rem;
+        left: -13rem;
+        color: var(--oq);
+    }
+    .h-info h2 {
+        font-size: 7rem;
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+    .h-info h3 {
+        font-size: 6rem;
+        position: relative;
+        top: 0rem;
+        left: -2rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 33rem;
+    }
+    .one {
+        width: 33rem;
+    }
+    .hududbg {
+        width: 33rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 4rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .h-info p {
+        display: none;
+    }
+    .h-info h2 {
+        font-size: 7rem;
+        position: relative;
+        top: 10rem;
+        left: 1rem;
+    }
+    .h-info h3 {
+        font-size: 6rem;
+        position: relative;
+        top: 8rem;
+        left: -5rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 33rem;
+    }
+    .one {
+        width: 33rem;
+    }
+    .hududbg {
+        width: 29rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 4rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 490px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .h-info h2 {
+        font-size: 5rem;
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+    .h-info h3 {
+        font-size: 4rem;
+        position: relative;
+        top: 0rem;
+        left: -2rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 28rem;
+    }
+    .one {
+        width: 28rem;
+    }
+    .hududbg {
+        width: 24rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 3rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbar .container-fluid img {
+        display: none;
+    }
+    .bgtext {
+        display: none;
+    }
+    .bgtext2 {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    .h-info h2 {
+        font-size: 5rem;
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+    }
+    .h-info h3 {
+        font-size: 4rem;
+        position: relative;
+        top: 0rem;
+        left: -4rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .maqsadp1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #777;
+    }
+    .maqsadp2 {
+        font-size: .7rem;
+    }
+    .maqsadp3 {
+        font-size: .7rem;
+    }
+    .maqsad h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .bosqichh31 {
+        font-size: 1rem;
+    }
+    .bosqichh11 {
+        font-size: 1.6rem;
+    }
+    .bosqich_body .col {
+        margin-top: 1rem;
+    }
+    .bosqich_body p {
+        font-size: 1rem;
+    }
+    svg {
+        width: 22rem;
+    }
+    .one {
+        width: 21rem;
+    }
+    .hududbg {
+        width: 18rem;
+        background-color: #001dac;
+        margin: 0rem 0rem;
+    }
+    .imkonh11 {
+        font-size: 1.4rem;
+    }
+    #yangilik .container .row .col .box_1 img {
+        width: 100px !important;
+        position: absolute;
+        left: 7rem;
+        /* top: 7rem; */
+        border-radius: 50%;
+    }
+    #footer .container .row .col-md-6 .row .col-md-5 {
+        padding: 2rem 1rem;
+        color: var(--oq);
+    }
+    #footer .container .row .col-md-6:nth-child(2) .row .col-md-7 h4 {
+        color: var(--oq);
+        padding: 0 1rem;
+    }
+}
